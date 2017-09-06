@@ -1,17 +1,14 @@
-"""
-Created on Wed Aug 23 00:31:56 2017
-
-@author: JamesQuintero
-"""
+## James Quintero
+## https://github.com/JamesQuintero
+## Created: 2017
+## Modified: 2017
 
 import csv
 import numpy as np
-import matplotlib.pyplot as plt
 import pandas as pd
 
 
 print("Reading data from csv")
-#dataset = pd.read_csv('compiled_data_OECD.csv')
 dataset = pd.read_csv('compiled_data_OECD_standardized_CCI.csv')
 X = dataset.iloc[:, 2:].values #loads columns 2 and up
 y = dataset.iloc[:, 1].values #loads column 1 as the US NBER data, which will be the output 
@@ -61,7 +58,7 @@ classifier.compile(optimizer = 'adam', loss = 'binary_crossentropy', metrics = [
 
 # Fitting the ANN to the Training set
 print("Training neural network")
-classifier.fit(X_train, y_train, batch_size = 10, nb_epoch = 100)
+classifier.fit(X_train, y_train, batch_size = 10, epochs = 50)
 
 
 # Predicting the Test set results

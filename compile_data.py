@@ -1,6 +1,13 @@
+## James Quintero
+## https://github.com/JamesQuintero
+## Created: 2017
+## Modified: 2017
+
+
 import os
 import csv
 
+#returns contents of csv at path
 def read_from_csv(path):
 		if os.path.isfile(path):
 			with open(path, newline='') as file:
@@ -17,7 +24,7 @@ def read_from_csv(path):
 		else:
 			return []
 
-
+#saves matrix data to path as csv
 def save_to_csv(path, data):
 		with open(path, 'w', newline='') as file:
 			contents = csv.writer(file)
@@ -27,37 +34,18 @@ def save_to_csv(path, data):
 
 
 
-## *) First go to http://stats.oecd.org/Index.aspx?DataSetCode=MEI_CLI ##
-# *) any value over 100 for a month, indicates a recession
-# *) in the left panel menu, select "Composite Leading Indicators (MEI)"
-# *) click on the "Time" header label under "Country" on the graph. 
-# *) Top should have "Select time range" selected. 
-# *) Select the Monthly checkbox.
-# *) Can use the dropdown list in the "From:" column to select the oldest date, or select the radiobox for "Select latest data", 
-# and use the dropdown list corresponding to the monthly row, and select the higher number of months
-# *) in the top menu, click Export, then CSV, and Download
-# *) rename the file downloaded to "MEI_standardized_CCI.csv"
-# *) Download CSV from https://fred.stlouisfed.org/series/USREC
-
-
-
-
-# path="MEI_normalized_CLI.csv"
 path="MEI_standardized_CCI.csv"
 
 contents = read_from_csv(path)
 
 
 start_date="1970-01"
-# start_date_USA="1/1/1970" #because fuck excel's date handling
 start_date_USA="1970-01-01" #standard date format
 
-
+#reformats the csv data
 country_names=[]
 country_data={}
 for x in range(0, len(contents)):
-	# print(str(x)+" | "+str(contents[x]))
-
 	#only care about the standardized CCI data
 	if contents[x][1]=="OECD Standardised CCI, Amplitude adjusted (Long term average=100), sa":
 		country = contents[x][3]
@@ -70,7 +58,9 @@ for x in range(0, len(contents)):
 		country_data[str(country)].append(contents[x])
 
 
-#gets monthly dates from the United States data
+
+
+#gets monthly dates from the United States' data
 to_save=[]
 found=False
 for x in range(0, len(country_data['United States'])):
@@ -130,13 +120,10 @@ for x in range(0, len(NBER)):
 
 #adds header row
 header=["", "United States", "United States OECD"]
-# header=["", "United States"]
 for x in range(0, len(country_names)):
 	header.append(country_names[x])
 
 to_save.insert(0, header)
 
 
-
-# save_to_csv("./compiled_data_OECD_normalized_CLI.csv", to_save)
 save_to_csv("./compiled_data_OECD_standardized_CCI.csv", to_save)
