@@ -1,6 +1,7 @@
 # Recession-Indicator
 Uses Machine Learning to detect whether the United States is entering a recession by training a neural network with OECD's (Organisation For Economic Co-Operation and Development) CLI indicator. "The OECD CLI is designed to provide qualitative information on short-term economic movements".
 
+# As of 07-2017, the United States has a 0.00% chance of heading into a recession within the next month. 
 
 ### Python libraries needed can be installed using Anaconda on Windows. 
 * numpy
