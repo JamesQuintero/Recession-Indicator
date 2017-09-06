@@ -27,7 +27,17 @@ def save_to_csv(path, data):
 
 
 
-## First download CSV from 
+## *) First go to http://stats.oecd.org/Index.aspx?DataSetCode=MEI_CLI ##
+# *) any value over 100 for a month, indicates a recession
+# *) in the left panel menu, select "Composite Leading Indicators (MEI)"
+# *) click on the "Time" header label under "Country" on the graph. 
+# *) Top should have "Select time range" selected. 
+# *) Select the Monthly checkbox.
+# *) Can use the dropdown list in the "From:" column to select the oldest date, or select the radiobox for "Select latest data", 
+# and use the dropdown list corresponding to the monthly row, and select the higher number of months
+# *) in the top menu, click Export, then CSV, and Download
+# *) rename the file downloaded to "MEI_standardized_CCI.csv"
+# *) Download CSV from https://fred.stlouisfed.org/series/USREC
 
 
 
@@ -39,7 +49,8 @@ contents = read_from_csv(path)
 
 
 start_date="1970-01"
-start_date_USA="1/1/1970" #because fuck excel's date handling
+# start_date_USA="1/1/1970" #because fuck excel's date handling
+start_date_USA="1970-01-01" #standard date format
 
 
 country_names=[]
@@ -48,7 +59,7 @@ for x in range(0, len(contents)):
 	# print(str(x)+" | "+str(contents[x]))
 
 	#only care about the standardized CCI data
-	if contents[x][1]=="OECD Standardised CCI Amplitude adjusted (Long term average=100) sa":
+	if contents[x][1]=="OECD Standardised CCI, Amplitude adjusted (Long term average=100), sa":
 		country = contents[x][3]
 
 		#adds new country to dictionary
@@ -57,7 +68,6 @@ for x in range(0, len(contents)):
 			country_names.append(country)
 
 		country_data[str(country)].append(contents[x])
-
 
 
 #gets monthly dates from the United States data
@@ -71,8 +81,10 @@ for x in range(0, len(country_data['United States'])):
 		row.append(country_data['United States'][x][14]) #value
 		to_save.append(row)
 	else:
+		# print(country_data['United States'][x][6])
 		if country_data['United States'][x][6]==start_date:
 			found=True
+
 
 
 
@@ -103,13 +115,13 @@ for x in range(0, len(to_save)):
 
 
 #loads USA's NBER recession data for neural network's output
-path="./USA_NBER.csv"
+path="./USREC.csv"
 NBER = read_from_csv(path)
 
 #inserts NBER data into to_save
 found_date=False
 for x in range(0, len(NBER)):
-	# print(str(x)+" | "+str(NBER[x]))
+	print(str(x)+" | "+str(NBER[x]))
 	if NBER[x][0]==start_date_USA:
 		for y in range(0, len(to_save)):
 			to_save[y].insert(1, NBER[x+y+1][1])
@@ -118,6 +130,7 @@ for x in range(0, len(NBER)):
 
 #adds header row
 header=["", "United States", "United States OECD"]
+# header=["", "United States"]
 for x in range(0, len(country_names)):
 	header.append(country_names[x])
 
