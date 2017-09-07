@@ -30,6 +30,8 @@ dates = dataset.iloc[:, 0].values
 # y_train = y[:int(len(y)*train_size)]
 # X_test = X[int(len(X)*train_size):]
 # y_test = y[int(len(y)*train_size):]
+# dates_train = dates[:int(len(dates)*train_size)]
+# print("End date train: "+str(dates_train[-1]))
 
 X_train = X
 y_train = y

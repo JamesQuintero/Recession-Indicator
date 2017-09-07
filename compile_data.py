@@ -38,7 +38,16 @@ oecd_path="./MEI_standardized_CCI.csv"
 nber_path="./USREC.csv"
 output_path="./compiled_data_OECD_standardized_CCI.csv"
 
+
+# relevant_data="OECD Standardised BCI, Amplitude adjusted (Long term average=100), sa"
 relevant_data="OECD Standardised CCI, Amplitude adjusted (Long term average=100), sa"
+# relevant_data="Amplitude adjusted (CLI)"
+# relevant_data="Normalised (CLI)"
+# relevant_data="Trend restored (CLI)"
+# relevant_data="12-month rate of change of the trend restored CLI"
+# relevant_data="Ratio to trend (GDP)"
+# relevant_data="Normalised (GDP)"
+# relevant_data="Trend (GDP)"
 relevant_country='United States'
 
 start_date="1970-01"
@@ -116,7 +125,6 @@ NBER = read_from_csv(nber_path)
 #inserts NBER data into to_save
 #NBER represents when the US is in a recession per month. 0 if not, 1 if yes.
 for x in range(0, len(NBER)):
-	print(str(x)+" | "+str(NBER[x]))
 
 	if NBER[x][0]==start_date_NBER:
 		for y in range(0, len(to_save)):
