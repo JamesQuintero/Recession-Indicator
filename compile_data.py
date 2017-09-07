@@ -34,20 +34,27 @@ def save_to_csv(path, data):
 
 
 
-path="MEI_standardized_CCI.csv"
+oecd_path="./MEI_standardized_CCI.csv"
+nber_path="./USREC.csv"
+output_path="./compiled_data_OECD_standardized_CCI.csv"
 
-contents = read_from_csv(path)
-
+relevant_data="OECD Standardised CCI, Amplitude adjusted (Long term average=100), sa"
+relevant_country='United States'
 
 start_date="1970-01"
-start_date_USA="1970-01-01" #standard date format
+start_date_NBER="1970-01-01" #standard date format
+
+
+
+contents = read_from_csv(oecd_path)
+
 
 #reformats the csv data
 country_names=[]
 country_data={}
 for x in range(0, len(contents)):
 	#only care about the standardized CCI data
-	if contents[x][1]=="OECD Standardised CCI, Amplitude adjusted (Long term average=100), sa":
+	if contents[x][1]==relevant_data:
 		country = contents[x][3]
 
 		#adds new country to dictionary
@@ -60,26 +67,25 @@ for x in range(0, len(contents)):
 
 
 
-#gets monthly dates from the United States' data
+#gets monthly dates from the relevant country's data
 to_save=[]
 found=False
-for x in range(0, len(country_data['United States'])):
+for x in range(0, len(country_data[str(relevant_country)])):
 
 	if found:
 		row = []
-		row.append(str(country_data['United States'][x][6])) #date
-		row.append(country_data['United States'][x][14]) #value
+		row.append(str(country_data[str(relevant_country)][x][6])) #date
+		row.append(country_data[str(relevant_country)][x][14]) #value
 		to_save.append(row)
 	else:
-		# print(country_data['United States'][x][6])
-		if country_data['United States'][x][6]==start_date:
+		if country_data[str(relevant_country)][x][6]==start_date:
 			found=True
 
 
 
 
-#United State's data has already been added, so remove its name
-country_names.remove("United States")
+#relevant country's data has already been added, so remove its name
+country_names.remove(str(relevant_country))
 
 #adds all other country's data
 for x in range(0, len(to_save)):
@@ -104,26 +110,42 @@ for x in range(0, len(to_save)):
 
 
 
-#loads USA's NBER recession data for neural network's output
-path="./USREC.csv"
-NBER = read_from_csv(path)
+#loads NBER recession data for neural network's output
+NBER = read_from_csv(nber_path)
 
 #inserts NBER data into to_save
-found_date=False
+#NBER represents when the US is in a recession per month. 0 if not, 1 if yes.
 for x in range(0, len(NBER)):
 	print(str(x)+" | "+str(NBER[x]))
-	if NBER[x][0]==start_date_USA:
+
+	if NBER[x][0]==start_date_NBER:
 		for y in range(0, len(to_save)):
+
+
+			# try:
+			# 	#because we want the model to be able to predict recessions, modify the NBER so that the recessions start earlier than they actually did. 
+			# 	#looks 3 months ahead
+			# 	if int(NBER[x+y+1 + 3][1])==1:
+			# 		to_save[y].insert(1, 1)
+			# 		continue
+			# except Exception as error:
+			# 	# print(error)
+			# 	pass
+
 			to_save[y].insert(1, NBER[x+y+1][1])
+
+		break
+
+
 
 
 
 #adds header row
-header=["", "United States", "United States OECD"]
+header=["", str(relevant_country), str(relevant_country)+" OECD"]
 for x in range(0, len(country_names)):
 	header.append(country_names[x])
 
 to_save.insert(0, header)
 
 
-save_to_csv("./compiled_data_OECD_standardized_CCI.csv", to_save)
+save_to_csv(output_path, to_save)
