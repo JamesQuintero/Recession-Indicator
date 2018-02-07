@@ -1,7 +1,7 @@
 # Recession-Indicator
 Uses Machine Learning to detect whether the United States is entering a recession by training a neural network with OECD's (Organisation For Economic Co-Operation and Development) CLI indicator. "The OECD CLI is designed to provide qualitative information on short-term economic movements".
 
-### ` As of 07-2017, the United States has a 0.00% chance of heading into a recession within the next month.`
+### ` As of 12-2017, the United States has a 0.00% chance of heading into a recession within the next month.`
 
 ---
 
@@ -31,7 +31,7 @@ Overfitting possibility? Most definitely. But when the model was trained on rece
 
 ### Steps for obtaining country data: 
 1. First go to http://stats.oecd.org/Index.aspx?DataSetCode=MEI_CLI   
-    Any value over 100 for a month, indicates an economic downturn. The higher the number, the better.
+    Any value below 100 for a month, indicates an economic downturn. The higher the number, the better.
 2. In the left panel menu, select "Composite Leading Indicators (MEI)"
 3. Click on the "Time" header label under "Country" on the graph.   
     Top should have "Select time range" selected. 
