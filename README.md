@@ -30,16 +30,18 @@ Overfitting possibility? Most definitely. But when the model was trained on rece
 
 
 ### Steps for obtaining country data: 
-1. First go to http://stats.oecd.org/Index.aspx?DataSetCode=MEI_CLI   
+1. First go to http://stats.oecd.org/Index.aspx?DataSetCode=MEI_CLI
+2. Selected "OECD Standardised CCI, Amplitude adjusted (Long term average=100), sa" for the dropdown next to Subject
     Any value below 100 for a month, indicates an economic downturn. The higher the number, the better.
-2. In the left panel menu, select "Composite Leading Indicators (MEI)"
-3. Click on the "Time" header label under "Country" on the graph.   
+3. In the left panel menu, select "Composite Leading Indicators (MEI)"
+4. Click on the "Time" header label under "Country" on the graph.   
     Top should have "Select time range" selected. 
-4. Select the Monthly checkbox.
-5. Can use the dropdown list in the "From:" column to select the oldest date, or select the radiobox for "Select latest data", and use the dropdown list corresponding to the monthly row, and select the higher number of months
-6. In the top menu, click Export, then CSV, and Download
-7. Rename the file downloaded to "MEI_standardized_CCI.csv"
-8. Download CSV from https://fred.stlouisfed.org/series/USREC
+5. Select the Monthly checkbox.
+6. Can use the dropdown list in the "From:" column to select the oldest date, or select the radiobox for "Select latest data", and use the dropdown list corresponding to the monthly row, and select the higher number of months.
+	Should pick starting from 1970, or 520- months. Data before 1970 is inaccurate or not available. 
+7. In the top menu, click Export, then CSV, and Download
+8. Rename the file downloaded to "MEI_standardized_CCI.csv"
+9. Download CSV from https://fred.stlouisfed.org/series/USREC
 
 
 ### Steps for running: 
