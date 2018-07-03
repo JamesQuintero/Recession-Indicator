@@ -32,7 +32,7 @@ Overfitting possibility? Most definitely. But when the model was trained on rece
 ### Steps for obtaining country data: 
 1. First go to http://stats.oecd.org/Index.aspx?DataSetCode=MEI_CLI
 2. In the left panel menu, select "Composite Leading Indicators (MEI)"
-3. Select "OECD Standardised CCI, Amplitude adjusted (Long term average=100), sa" for the dropdown next to Subject
+3. Select "OECD Standardised CCI, Amplitude adjusted (Long term average=100), sa" for the dropdown next to Subject  
     Any value below 100 for a month, indicates economic growth below that country's average. The higher the number past 100, the better.
 4. Click on the "Time" header label under "Country" on the graph.   
     Top should have "Select time range" selected. 

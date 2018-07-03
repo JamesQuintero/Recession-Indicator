@@ -125,10 +125,12 @@ with open(data_save_path, 'w', newline='') as file:
 print()
 print()
 
-if US_recession_pred[-1]>0.5:
+print(str(US_recession_pred[-1][0]*100)+"% recession likelihood")
+
+if US_recession_pred[-1][0]>0.5:
 	print("As of "+str(dates[-1])+", the United States is in a recession")
 #because any percentage 1 or above is a considerable amount, be wary
-elif US_recession_pred[-1]>0.01:
+elif US_recession_pred[-1][0]>0.01:
 	print("As of "+str(dates[-1])+", the United States is most likely heading into a recession")
 else:
 	print("As of "+str(dates[-1])+", the United States is not in, or heading into, a recession")
