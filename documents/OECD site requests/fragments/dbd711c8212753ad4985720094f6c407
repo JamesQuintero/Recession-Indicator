@@ -1,0 +1,32 @@
+<script type="text/javascript" language="javascript">
+            var treeviewdatasetcode = "";
+            var treeviewqueryid = 0;
+            $(function () {
+                treeviewdatasetcode = 'MEI_CLI';treeviewqueryid = 0;
+
+                var treeviewlink;
+                treeviewlink = $("#browsequeriestree a[qid= '" + treeviewqueryid + "' ]").first();
+
+                if (treeviewqueryid && !treeviewlink.hasClass("ds")) {
+                    if (!treeviewlink.hasClass("qclicked")) {
+                        $("#browsequeriestree .qclicked").removeClass("qclicked");
+                        treeviewlink.addClass("qclicked");
+                        treeviewlink.parents("li.t").removeClass("closed").addClass("opened").children("ul").show();
+                    }
+                }
+                else if (treeviewdatasetcode) {
+                    treeviewlink = $("#browsequeriestree a[dscode= '" + treeviewdatasetcode + "' ]").first();
+                    if (!treeviewlink.hasClass("dsclicked") || !treeviewlink.hasClass("pdsclicked")) {
+                        $("#browsequeriestree .dsclicked").removeClass("dsclicked");
+                        $("#browsequeriestree .pdsclicked").removeClass("pdsclicked");
+                        if (treeviewlink.hasClass("pds")) {
+                            treeviewlink.addClass("pdsclicked");
+                        }
+                        else {
+                            treeviewlink.addClass("dsclicked");
+                        }
+                        treeviewlink.parents("li.t").removeClass("closed").addClass("opened").children("ul").show();
+                    }
+                }
+            });
+        </script>

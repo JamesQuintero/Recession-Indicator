@@ -1,0 +1,22 @@
+<script type="text/javascript">
+    var showSurvey = 'False';
+    selectedTheme = 'OECD';
+
+    function redirectToSurvey(exporttype) {
+        redirectToSurvey(exporttype, '');
+    }
+    
+    function redirectToSurvey(exporttype, firstDataPointIndexPerPage) {
+        //alert(showSurvey);
+        if (showSurvey == 'True') {
+            showSurvey = false;  // we don't show the survey twice on the same page without page reload
+            dotstatExportSurvey(exporttype, firstDataPointIndexPerPage, true);
+        } else {
+            dotstatExport(exporttype, firstDataPointIndexPerPage, true);            
+        }
+    }
+
+    $.fn.idleTimeout = function(options) {
+        selectedTheme = 'OECD';
+    }
+</script>

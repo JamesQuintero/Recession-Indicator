@@ -1,0 +1,432 @@
+HTTP/1.1 302 Found
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Location: /Download.ashx?type=csv&Delimiter=%2c&IncludeTimeSeriesIdentifiers=False&LabelType=CodeAndLabel&LanguageCode=en
+X-Server-Node: Server 3
+Access-Control-Allow-Headers: Content-Type
+Access-Control-Allow-Methods: POST,GET,OPTIONS
+X-UA-Compatible: IE=edge
+Content-Security-Policy: frame-ancestors 'self' *.oecd-ilibrary.org *.oecd.org; style-src 'self' 'unsafe-inline' tagmanager.google.com fonts.googleapis.com; script-src 'self' *.google-analytics.com *.crazyegg.com *.cloudfront.net *.hotjar.com *.googletagmanager.com tagmanager.google.com localhost:* 'unsafe-inline' 'unsafe-eval'
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Date: Wed, 25 Sep 2019 05:47:35 GMT
+Content-length: 35786
+X-ManualEdit: possibly modified
+
+<html><head><title>Object moved</title></head><body>
+<h2>Object moved to <a href="/Download.ashx?type=csv&amp;Delimiter=%2c&amp;IncludeTimeSeriesIdentifiers=False&amp;LabelType=CodeAndLabel&amp;LanguageCode=en">here</a>.</h2>
+</body></html>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><script>dataLayer = [{'siteName':'stats','pageCategory':'statistics','siteEnvironment':'live','dataSetCode':'MEI_CLI','pageLanguage':'en','pageCurrentPath':'/Other/Export/MEI_CLI/Public/6617','pageTopic':'','pageCommonTopic':''}];</script><!-- Google Tag Manager -->
+        <script>
+          (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-P5JSM4P');
+        </script>
+        <!-- End Google Tag Manager -->
+      <title>
+	Export
+</title><meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="js/jquery/jquery-1.6.2.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="Scripts/TabPostBack.js"></script>
+
+<link rel="stylesheet" type="text/css" href="Content/themes/OECD/styles/dialog.css"></link><link rel="stylesheet" type="text/css" href="Content/themes/OECD/styles/layout.css"></link><link rel="stylesheet" type="text/css" href="Content/themes/OECD/styles/metadata.css"></link><link rel="stylesheet" type="text/css" href="Content/themes/OECD/styles/pages.css"></link><link rel="stylesheet" type="text/css" href="Content/themes/OECD/styles/treeview.css"></link><link rel="stylesheet" type="text/css" href="Content/themes/OECD/styles/WebTableStyles.css"></link><link rel="stylesheet" type="text/css" href="Content/themes/OECD/styles/jqueryui/1-jquery-ui-1.8.14.custom.css"></link><link rel="stylesheet" type="text/css" href="Content/themes/OECD/styles/jqueryui/2-jquery.ui.menu.css"></link><link rel="stylesheet" type="text/css" href="Content/themes/OECD/styles/jqueryui/3-jquery.ui.menubar.css"></link><link rel="stylesheet" type="text/css" href="Content/themes/OECD/styles/jqueryui/4-jquery.ui.selectmenu.css"></link></head>
+<body class="dialogbody" id="exports">
+    <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P5JSM4P"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    <form name="form1" method="post" action="./modalexports.aspx?exporttype=bulk&amp;FirstDataPointIndexPerPage=undefined&amp;SubSessionId=4dc6f73c-cbaf-4148-8b81-b007e461badd&amp;Random=0.3373894321295626" language="javascript" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+
+<script type="text/javascript">
+<!--
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+// -->
+</script>
+
+
+
+<script src="/WebResource.axd?d=x2nkrMJGXkMELz33nwnakP7EMo5JJTVvFKyzBsToMjycl32qG0onJEStRPUYg8Ih_M8KpXpigkVwA1pTdoGGD47PZfA1&amp;t=636934957199995647" type="text/javascript"></script>
+<script type="text/javascript">
+<!--
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+// -->
+</script>
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A031ECE4" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="qBDGFf4YZgDhVidcfObOnXOqgSjBY7A3olRkeQqyzxr6vTGffNGk95MVQ+pcP8VlXLkCuwc+u49Rcuxwfc8BG3vSrDh8wsvwoKHaA1GmxgbW3CPBo1AulmDqspAWTbWKFY8A9A96faOEsFKLRXjsBgR6C2QRASFKT2p/hdSq8THVsQu1gxljZt5rW+pwDki3QxnvNXld9v/nlQlbU6WVi6sHrEE/AwUIIefobJ0GtnCk65CN/5GsC0Qj2hZAGOwGqhWw+F39Ww2NGWwvuwpbQAUQzgnaBzuJ3aJvAb65V03Cm70jMZSEl0T1N1AGs+DDljMDpHBB5zyGOfsjOB+vcVRPejxqLJWKHZjyJFEhWnkVL8n+lItSfnBYWLUvp9Iei7tWXGgWTmG8McfpGDGtvcZPC2aQZ4IYBiucJCiC645J4JnIsfAPpgVQwCpRLlgxITD282nH681a6+3XanAIUSs82316RmmTU+x35e3PfBFfSHHq8ZP3dJ/9zBrogXToCHRlEwaiV0JlSNfJc8LwvQA/JiyZlryKyOM9AgNgDvFF0aFubb4/JBRYvOfa2uQfQawZpSp15uV5DXL+sxzV+TrdtQK8reG+0pwk24JI8MwN0sA+0ouPHhgGL+zcL9SXImPEXvfINPFmePELdNB0SpIT5qI=" />
+    <input name="HiddenTab" type="hidden" id="HiddenTab" value="2" />
+    <script type='text/javascript'>var oHiddenTab = document.getElementById('HiddenTab');</Script>
+        <div id="menuTabs" class="hpTabs">
+            <ul class="tabs">
+                <li id="liExcel">
+                    <a id="1"><span>Excel</span></a>
+                </li>
+                <li id="liTextFormat2">
+                    <a id="2"><span>Text file (CSV)</span></a>
+                </li>
+                <li id="liPCAxis">
+                    <a id="4"><span>PC-Axis</span></a>
+                </li>
+                <li id="liDeveloperAPI">
+                    <a id="8"><span>Developer API</span></a>
+                </li>
+                <li id="liSDMX">
+                    <a id="6"><span>SDMX</span></a>
+                </li>
+                <li id="liReadyMadeFiles" style="display:none">
+                    <a id="3"><span>Related Files</span></a>
+                </li>
+                <li id="liTextFormat" style="display:none">
+                    <a id="5"><span>Old Text Format</span></a>
+                </li>
+                <li id="liDotStatGet" style="display:none">
+                    <a id="7"><span>DotStatGet</span></a>
+                </li>
+            </ul>
+            <div style="clear:both">
+                <div id="tab-1" class="panel">
+                    <p>
+                         <b>Generate Microsoft Excel (XLS) file to export</b>.<br />- File size up to 100 000 data points<br />
+- Preserves current table layout
+                    </p>
+                    <br /> 
+                    <p id="divExcelExportContent">
+                        <input id="chkIncludeFlagColumn" type="checkbox" name="chkIncludeFlagColumn" onclick="javascript:setTimeout(&#39;__doPostBack(\&#39;chkIncludeFlagColumn\&#39;,\&#39;\&#39;)&#39;, 0)" language="javascript" /><label for="chkIncludeFlagColumn">Include extra columns for flags</label>
+                        
+                        
+                        <br /> 
+                        <input onclick="if (typeof(Page_ClientValidate) == 'function') Page_ClientValidate(''); __doPostBack('btnExportToExcel','')" name="btnExportToExcel" type="button" id="btnExportToExcel" value="Export to XLS file" />
+                    </p>
+                    <p>
+                    
+                    </p>
+                </div>
+                <div id="tab-2" class="panel">
+                    <div id="divExportToCSV2" class="BlueRectangle">
+                        <p>
+                            
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <h4>Generate Delimited Text (CSV) file to export</h4>
+            <ul>
+                <li>File size up to 1,000,000 data points. Exceeding data points are truncated.</li>                
+                <li>Flattens current table layout – does not preserve multi-dimensional layout.</li>
+                <li id="_ctl12_exportLanguage">By default the data will be exported in English.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="radio">
+                <input id="_ctl12_rbDefaultLayout" type="radio" name="_ctl12:Layout" value="rbDefaultLayout" checked="checked" /><label for="_ctl12_rbDefaultLayout">Default format: Comma (,) separated with codes and labels in separate columns in English.</label>
+            </div>
+            <div class="radio">
+                <input id="_ctl12_rbCustomLayout" type="radio" name="_ctl12:Layout" value="rbCustomLayout" onclick="javascript:setTimeout(&#39;__doPostBack(\&#39;_ctl12$rbCustomLayout\&#39;,\&#39;\&#39;)&#39;, 0)" language="javascript" /><label for="_ctl12_rbCustomLayout">Customised format:</label>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-md-12">
+            
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <input onclick="if (typeof(Page_ClientValidate) == 'function') Page_ClientValidate(''); __doPostBack('_ctl12$btnExportCSV','')" name="_ctl12:btnExportCSV" type="button" id="_ctl12_btnExportCSV" value="Download" />
+        </div>
+    </div>
+</div>
+
+
+                        </p>
+                    </div>
+                </div>
+                <div id="tab-3" class="panel">
+                    <p>
+                    This feature allows downloading ready-made files of any size (possibly including >1 000 000 data points).
+                    </p>
+                    <p>
+                        
+<table border="0" width="100%"	>
+	
+</table>
+<table>
+	
+</table>
+
+                    </p>
+                </div>
+                <div id="tab-4" class="panel">
+                <div id="divPCX">
+                    <p>
+                    <b>Generate PC-Axis file to export</b><br/><br/>For more information on PC-AXIS and to download the data browser (PC-Axis 2008 (without SQL)) visit <a href="http://www.scb.se/Pages/List____314051.aspx" target="_blank">http://www.scb.se/Pages/List____314051.aspx</a><br /> 
+                    </p>
+                    <br />
+                    <p>
+                        <input onclick="if (typeof(Page_ClientValidate) == 'function') Page_ClientValidate(''); __doPostBack('btnExportToPCAxis','')" name="btnExportToPCAxis" type="button" id="btnExportToPCAxis" value="Export to PC-Axis file" />
+                    </p>
+                    <p>
+                    
+                    </p></div>
+                </div>
+                <div id="tab-5" class="panel">
+                    
+                </div>
+                <div id="tab-6" class="panel">
+                    <div id="divExportToSDMX">
+                        <p>
+                            <b>Generate SDMX (XML) file to export</b>
+                            <br/>
+                            
+                        </p>
+                        <p>
+                            <table id="typesdmx" border="0">
+	<tr>
+		<td><input id="typesdmx_0" type="radio" name="typesdmx" value="GenericData" checked="checked" /><label for="typesdmx_0">Generic Data</label></td><td><input id="typesdmx_1" type="radio" name="typesdmx" value="CompactData" /><label for="typesdmx_1">Compact Data</label></td>
+	</tr>
+</table>
+                        </p>
+                        <p>
+                            <input onclick="if (typeof(Page_ClientValidate) == 'function') Page_ClientValidate(''); __doPostBack('btnExportToSDMX','')" name="btnExportToSDMX" type="button" id="btnExportToSDMX" value="Export to SDMX file" />
+                            <input onclick="if (typeof(Page_ClientValidate) == 'function') Page_ClientValidate(''); __doPostBack('btnExportToDSD','')" name="btnExportToDSD" type="button" id="btnExportToDSD" value="Export to DSD" />
+                        </p>
+                        <p>
+                            <span id="lblSDMXQuery">SDMX Query:</span><br />
+                            <textarea name="tbSDMXQuery" readonly="readonly" id="tbSDMXQuery" style="height:60px;width:99%;">
+&lt;message:QueryMessage xmlns=&quot;http://www.SDMX.org/resources/SDMXML/schemas/v2_0/query&quot; xmlns:message=&quot;http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message&quot; xsi:schemaLocation=&quot;http://www.SDMX.org/resources/SDMXML/schemas/v2_0/query http://www.sdmx.org/docs/2_0/SDMXQuery.xsd http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message http://www.sdmx.org/docs/2_0/SDMXMessage.xsd&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;&lt;Header xmlns=&quot;http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message&quot;&gt;&lt;ID&gt;none&lt;/ID&gt;&lt;Test&gt;false&lt;/Test&gt;&lt;Truncated&gt;false&lt;/Truncated&gt;&lt;Prepared&gt;2019-09-25T07:46:37&lt;/Prepared&gt;&lt;Sender id=&quot;YourID&quot;&gt;&lt;Name xml:lang=&quot;en&quot;&gt;Your English Name&lt;/Name&gt;&lt;/Sender&gt;&lt;Receiver id=&quot;OECD&quot;&gt;&lt;Name xml:lang=&quot;en&quot;&gt;Organisation for Economic Co-operation and Development&lt;/Name&gt;&lt;Name xml:lang=&quot;fr&quot;&gt;Organisation de coop&#233;ration et de d&#233;veloppement &#233;conomiques&lt;/Name&gt;&lt;/Receiver&gt;&lt;/Header&gt;&lt;Query xmlns=&quot;http://www.SDMX.org/resources/SDMXML/schemas/v2_0/message&quot;&gt;&lt;DataWhere xmlns=&quot;http://www.SDMX.org/resources/SDMXML/schemas/v2_0/query&quot;&gt;&lt;And&gt;&lt;DataSet&gt;MEI_CLI&lt;/DataSet&gt;&lt;Dimension id=&quot;FREQUENCY&quot;&gt;M&lt;/Dimension&gt;&lt;Attribute id=&quot;TIME_FORMAT&quot;&gt;P1M&lt;/Attribute&gt;&lt;Time&gt;&lt;StartTime&gt;1970-01&lt;/StartTime&gt;&lt;EndTime&gt;2019-08&lt;/EndTime&gt;&lt;/Time&gt;&lt;Or&gt;&lt;Dimension id=&quot;SUBJECT&quot;&gt;LOLITOAA&lt;/Dimension&gt;&lt;Dimension id=&quot;SUBJECT&quot;&gt;LOLITONO&lt;/Dimension&gt;&lt;Dimension id=&quot;SUBJECT&quot;&gt;LOLITOTR_STSA&lt;/Dimension&gt;&lt;Dimension id=&quot;SUBJECT&quot;&gt;LOLITOTR_GYSA&lt;/Dimension&gt;&lt;Dimension id=&quot;SUBJECT&quot;&gt;BSCICP03&lt;/Dimension&gt;&lt;Dimension id=&quot;SUBJECT&quot;&gt;CSCICP03&lt;/Dimension&gt;&lt;Dimension id=&quot;SUBJECT&quot;&gt;LORSGPRT&lt;/Dimension&gt;&lt;Dimension id=&quot;SUBJECT&quot;&gt;LORSGPNO&lt;/Dimension&gt;&lt;Dimension id=&quot;SUBJECT&quot;&gt;LORSGPTD&lt;/Dimension&gt;&lt;Dimension id=&quot;SUBJECT&quot;&gt;LORSGPOR_IXOBSA&lt;/Dimension&gt;&lt;/Or&gt;&lt;Or&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;AUS&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;AUT&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;BEL&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;CAN&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;CHL&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;CZE&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;DNK&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;EST&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;FIN&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;FRA&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;DEU&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;GRC&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;HUN&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;IRL&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;ISR&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;ITA&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;JPN&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;KOR&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;LUX&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;MEX&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;NLD&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;NZL&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;NOR&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;POL&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;PRT&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;SVK&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;SVN&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;ESP&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;SWE&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;CHE&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;TUR&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;GBR&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;USA&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;EA19&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;G4E&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;G-7&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;NAFTA&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;OECDE&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;OECD&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;ONM&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;A5M&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;BRA&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;CHN&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;IND&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;IDN&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;RUS&lt;/Dimension&gt;&lt;Dimension id=&quot;LOCATION&quot;&gt;ZAF&lt;/Dimension&gt;&lt;/Or&gt;&lt;/And&gt;&lt;/DataWhere&gt;&lt;/Query&gt;&lt;/message:QueryMessage&gt;</textarea>
+                        </p>
+                        <p>
+                            <span id="ltlExportToSDMXRESTURLTitle">SDMX DATA URL:</span><br />
+                            <textarea name="tbExportToSDMXRESTURL" readonly="readonly" id="tbExportToSDMXRESTURL" style="height:40px;width:99%;">
+https://stats.oecd.org/restsdmx/sdmx.ashx/GetData/MEI_CLI/LOLITOAA+LOLITONO+LOLITOTR_STSA+LOLITOTR_GYSA+BSCICP03+CSCICP03+LORSGPRT+LORSGPNO+LORSGPTD+LORSGPOR_IXOBSA.AUS+AUT+BEL+CAN+CHL+CZE+DNK+EST+FIN+FRA+DEU+GRC+HUN+IRL+ISR+ITA+JPN+KOR+LUX+MEX+NLD+NZL+NOR+POL+PRT+SVK+SVN+ESP+SWE+CHE+TUR+GBR+USA+EA19+G4E+G-7+NAFTA+OECDE+OECD+ONM+A5M+BRA+CHN+IND+IDN+RUS+ZAF.M/all?startTime=1970-01&amp;endTime=2019-08</textarea>
+                        </p>
+                        <p>
+                            <span id="lblSDMXRESTDefinitionURLTitle">SDMX Data Structure Definition URL:</span><br />
+                            <textarea name="tbSDMXRESTDefinitionURL" readonly="readonly" id="tbSDMXRESTDefinitionURL" style="height:40px;width:99%;">
+https://stats.oecd.org/restsdmx/sdmx.ashx/GetDataStructure/MEI_CLI</textarea>
+                        </p>
+                        <input type="hidden" name="hiddenSdmxJsonUrl" id="hiddenSdmxJsonUrl" value="https://stats.oecd.org/SDMX-JSON/data/MEI_CLI/LOLITOAA+LOLITONO+LOLITOTR_STSA+LOLITOTR_GYSA+BSCICP03+CSCICP03+LORSGPRT+LORSGPNO+LORSGPTD+LORSGPOR_IXOBSA.AUS+AUT+BEL+CAN+CHL+CZE+DNK+EST+FIN+FRA+DEU+GRC+HUN+IRL+ISR+ITA+JPN+KOR+LUX+MEX+NLD+NZL+NOR+POL+PRT+SVK+SVN+ESP+SWE+CHE+TUR+GBR+USA+EA19+G4E+G-7+NAFTA+OECDE+OECD+ONM+A5M+BRA+CHN+IND+IDN+RUS+ZAF.M/all?startTime=1970-01&amp;endTime=2019-08" />
+                    </div>
+                </div>
+                <div id="tab-7" class="panel">
+                    
+                </div>
+                <div id="tab-8" class="panel">
+                    <div id="divDeveloperAPI">
+                        
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+            <h4>Developer API query builder</h4>
+        </div>
+        <div class="col-md-5">
+            Getting started:
+            <a href="http://data.oecd.org/api/sdmx-json-documentation/" target="_blank" rel="noopener noreferrer">
+                API Documentation
+            </a>
+            <br/>
+            <a href="/FAQAndContact.aspx?SubSessionId=4dc6f73c-cbaf-4148-8b81-b007e461badd" target="_blank" rel="noopener noreferrer">Contact us</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-11">
+            Let us know who you are so we can make our API service better meet your needs.
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            Organisation:
+        </div>
+        <div class="col-md-3">
+            <input name="_ctl13:tbOrganization" type="text" maxlength="120" id="_ctl13_tbOrganization" class="organization maxwidth" />
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+            Website URL:
+        </div>
+        <div class="col-md-3">
+            <input name="_ctl13:tbWebsiteURL" type="text" maxlength="250" id="_ctl13_tbWebsiteURL" class="maxwidth" />
+            <span controltovalidate="_ctl13_tbWebsiteURL" errormessage="The URL is not valid!" id="_ctl13_regexpWebsiteURL" evaluationfunction="RegularExpressionValidatorEvaluateIsValid" validationexpression="^[0-9a-zA-Z]([-.\w]*[0-9a-zA-Z])*(:(0-9)*)*(\/?)([a-zA-Z0-9\-\.\?\,\&#39;\/\\\+&amp;%\$#_]*)?$" style="color:Red;visibility:hidden;">The URL is not valid!</span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            Contact name:
+        </div>
+        <div class="col-md-3">
+            <input name="_ctl13:tbContactname" type="text" maxlength="120" id="_ctl13_tbContactname" class="maxwidth" />
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-2">
+            E-mail:
+        </div>
+        <div class="col-md-3">
+            <input name="_ctl13:tbEmail" type="text" maxlength="250" id="_ctl13_tbEmail" class="maxwidth" />
+            <span controltovalidate="_ctl13_tbEmail" errormessage="The e-mail is not valid!" id="_ctl13_regexpEmail" evaluationfunction="RegularExpressionValidatorEvaluateIsValid" validationexpression="^(?(&quot;&quot;)(&quot;&quot;.+?&quot;&quot;@)|(([0-9a-zA-Z]((\.(?!\.))|[-!#\$%&amp;&#39;\*\+/=\?\^`\{\}\|~\w])*)(?&lt;=[0-9a-zA-Z])@))(?(\[)(\[(\d{1,3}\.){3}\d{1,3}\])|(([0-9a-zA-Z][-\w]*[0-9a-zA-Z]\.)+[a-zA-Z]{2,6}))$" style="color:Red;visibility:hidden;">The e-mail is not valid!</span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            Type of usage:
+        </div>
+        <div class="col-md-9">
+            <input name="_ctl13:tbTypeOfUsage" type="text" maxlength="120" id="_ctl13_tbTypeOfUsage" class="maxwidth" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-11">
+            <span class="checkbox"><input id="_ctl13_chkNotification" type="checkbox" name="_ctl13:chkNotification" /><label for="_ctl13_chkNotification">I’d like to receive e-mail notification about OECD API updates</label></span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-11">
+            <a href="http://www.oecd.org/document/0,3343,en_2649_201185_1899048_1_1_1_1,00.html" target="_blank" rel="noopener noreferrer">Read our privacy policy</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <input onclick="if (typeof(Page_ClientValidate) == 'function') Page_ClientValidate(''); __doPostBack('_ctl13$btnExportDeveloperApi','')" name="_ctl13:btnExportDeveloperApi" type="button" id="btnExportDeveloperApi" value="Generate API queries" />
+        </div>
+        <div class="col-md-2">
+            SDMX-JSON flavour:
+        </div>
+        <div class="col-md-3">
+            <span class="radio v-align-middle"><input id="_ctl13_rbFlat" type="radio" name="_ctl13:Flavour" value="rbFlat" checked="checked" /><label for="_ctl13_rbFlat">Flat format</label></span>
+            <span class="radio v-align-middle"><input id="_ctl13_rbTimeSeries" type="radio" name="_ctl13:Flavour" value="rbTimeSeries" /><label for="_ctl13_rbTimeSeries">Time series format</label></span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-11">
+            Data query:
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-11">
+            <input name="_ctl13:tbDataQuery" type="text" id="_ctl13_tbDataQuery" class="dataQuery maxwidth" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-11">
+            Structure query:
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-11">
+            <input name="_ctl13:tbStructureQuery" type="text" id="_ctl13_tbStructureQuery" class="structureQuery maxwidth" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-11">
+            The query filter is generated according to the current data selection.<br/>To change the data selection, use the "Customise - Selection" menu.
+        </div>
+    </div>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+<script type="text/javascript">
+<!--
+var Page_Validators =  new Array(document.getElementById("_ctl13_regexpWebsiteURL"), document.getElementById("_ctl13_regexpEmail"));
+// -->
+</script>
+
+
+<script type="text/javascript">
+<!--
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        // -->
+</script>
+</form>
+        
+        
+                
+                <script type="text/javascript">
+                    (function (i, s, o, g, r, a, m) {
+                        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                            (i[r].q = i[r].q || []).push(arguments)
+                        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+                    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+                </script>
+            
+                <script type="text/javascript">
+            
+                    ga('create', 'UA-4129074-1');
+
+                
+
+                    var page = '/Other/Export/MEI_CLI/Public/6617';
+                    ga('send', 'pageview', page);
+            
+
+                    function trackGAEvent(exportType, onClickCode) {
+            
+                        ga('send', 'event', 'Export', exportType, 'MEI_CLI');
+            
+                        dataLayer.push({'customCategory':'engagement','customAction':'downloadContent','customLabel':exportType,'event':'customEvent'});
+            
+                        setTimeout(onClickCode, 300);
+                    }
+
+                    function changeButtonClickCode(element, exportType) {
+                        var previousClickCode = (element.attr('onclick'));
+                        element.attr('onclick', '');
+
+                        element.click(function (e) {
+                            $(this).prop('disabled', true);
+                            trackGAEvent(exportType, previousClickCode);
+                        });
+                    }
+
+                    changeButtonClickCode($('#btnExportToExcel'), 'Excel');
+                    changeButtonClickCode($('[id$=btnExportCSV]'), 'CSV');
+                    changeButtonClickCode($('#btnExportToPCAxis'), 'PCAxis');
+                    changeButtonClickCode($('#btnExportToSDMX'), 'SDMX-Data');
+                    changeButtonClickCode($('#btnExportToDSD'), 'SDMX-DSD');
+                    changeButtonClickCode($('#btnExportDeveloperApi'), 'developerAPI');
+                </script>
+            
+        
+
+</body>
+</html>

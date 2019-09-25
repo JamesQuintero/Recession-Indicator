@@ -1,0 +1,59 @@
+<script type="text/javascript" language="javascript">
+        var treeviewdatasetcode = "";
+        var treeviewqueryid = 0;
+        $(function(){
+
+            
+    
+             $('#divmetadata').delay(0).hide("fast", function() { $("#toggler-east").removeClass("toggler-east-open").addClass("toggler-east-closed");centerwidth = 0;middleheight = 0; setupLayout(); if (!($.browser.msie)) {freezeTable();} });
+
+            self.scrollTo(0,0);
+            try
+            {
+                
+            }
+            catch(ex)
+            {
+                alert( "Error in Merged Queries:" + ex.message );
+            }
+	
+            var treeviewlink;
+
+            treeviewdatasetcode = 'MEI_CLI';treeviewqueryid = 6617;
+
+            treeviewlink = $("#browsethemes a[qid= '" + treeviewqueryid +"' ]");
+
+            if (treeviewqueryid && !treeviewlink.hasClass("ds"))
+            {
+                if (!treeviewlink.hasClass("qclicked"))
+                { 
+                    $("#browsethemes .qclicked").removeClass("qclicked");
+                    treeviewlink.addClass("qclicked");
+                    //        if (typeof ishotlink != 'undefined') {
+                    //            if (ishotlink == true) { $("#browsePanel").tabs('select', 0); }
+                    //        }
+                    treeviewlink.parents("li.t").removeClass("closed").addClass("opened").children("ul").show();
+                }
+            }
+            else if (treeviewdatasetcode)
+            {
+                treeviewlink = $("#browsethemes a[dscode= '" + treeviewdatasetcode +"' ]").first();
+                if (!treeviewlink.hasClass("dsclicked") || !treeviewlink.hasClass("pdsclicked"))
+                { 
+                    $("#browsethemes .dsclicked").removeClass("dsclicked");
+                    $("#browsethemes .pdsclicked").removeClass("pdsclicked");
+                    if (treeviewlink.hasClass("pds"))
+                    { 
+                        treeviewlink.addClass("pdsclicked");
+                    }
+                    else
+                    {
+                        treeviewlink.addClass("dsclicked");
+                    }
+                    treeviewlink.parents("li.t").removeClass("closed").addClass("opened").children("ul").show();
+                }
+            }
+	
+            $("#divcontent").css("overflow", "none");;
+        });
+    </script>

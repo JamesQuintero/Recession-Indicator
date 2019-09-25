@@ -1,0 +1,38 @@
+<script type="text/javascript">
+        function trackExitAndRedir(url, label) {
+            try {
+                ga('send', 'pageview', '/Other/Exit/' + label);
+                ga('send', 'event', 'Exit', 'Click on external link', url, setTimeout(function () { document.location.href = url }, 300));
+            }
+            catch (ex) { }
+        }
+
+        function PanelSearch() {
+            var txtsearchvalue = $('.txtSearch').attr("value");
+            if (txtsearchvalue.length <= 150) {
+                if (dotStatSearchProviderType == 'IndependentExternalSearchProvider') {
+                    var searchURL = dotStatSearchURL.replace(/\{0}/g, txtsearchvalue);
+                    window.open(searchURL);
+                }
+                else {
+                    subSessionId = $('input[id*="TBSubSessionId"]').val();
+                    CallServer("Search&" + txtsearchvalue + "&" + subSessionId);
+                }
+            }
+
+        
+            dataLayer.push({ 'customCategory': 'navigation', 'customAction': 'internalSearchTerm', 'customLabel': txtsearchvalue, 'event': 'customEvent' });
+        
+        }
+
+        function HandleKeyPressSearch(e) {
+            if (window.event && window.event.keyCode == 13) {
+                PanelSearch();
+                return false;
+            }
+            else if (e.keyCode == 13) {
+                PanelSearch();
+                return false;
+            }
+        }
+    </script>

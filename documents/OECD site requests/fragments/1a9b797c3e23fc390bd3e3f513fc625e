@@ -1,0 +1,9 @@
+<script type="text/javascript">
+<!--
+ function CallServer(arg,context) { 
+                    centerwidth = 0;
+                    centerwidth = getCenterWidth();
+                    $('#divcontent').hide();
+                    $('#contentLoading').width(centerwidth);        
+                    $('#contentLoading').show();WebForm_DoCallback('__Page',arg,ReceiveServerData,context,OnCallbackError,false); }// -->
+</script>

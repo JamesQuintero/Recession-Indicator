@@ -1,0 +1,7 @@
+<script type="text/javascript">
+        ga('create', 'UA-4129074-1');
+        
+        var page = '/Other/TimeDimension/MEI_CLI/Public/6617';
+        ga('send', 'pageview', page);
+
+    </script>

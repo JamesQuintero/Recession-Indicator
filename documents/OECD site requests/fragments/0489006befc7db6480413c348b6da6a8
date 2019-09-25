@@ -1,0 +1,5 @@
+<script type="text/javascript" language="javascript">
+        if (typeof centerwidth != "undefined" && typeof middleheight != "undefined") {
+            setupTableLayout();
+        }
+    </script>

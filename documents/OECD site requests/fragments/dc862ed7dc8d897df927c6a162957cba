@@ -1,0 +1,32 @@
+<script language="text/javascript" type="text/javascript">
+                    var bisthemeloaded = true;
+                    
+                    if (window.location.hash.toLowerCase().indexOf("#bpopular") >= 0) 
+                    {
+                        $("#browsePanel").tabs({ selected: 1 }); 
+                    }
+                    else
+                    {
+                        $("#browsePanel").tabs({ selected: 0 });
+                    }
+                    
+                    if ($.browser.msie) 
+                    {
+                        $("#browsePanel ul li.ui-state-default").not(".ui-state-active").find("a").addClass("tabwithborderbottom");
+                    }
+
+                    $('#browsePanel').bind('tabsselect', function (event, ui) {
+                        if ($.browser.msie) {
+                            $("#browsePanel ul li.ui-state-default a").removeClass("tabwithborderbottom");
+                            if (ui.index == 1)
+                            {
+                                $("#browsePanel ul li.ui-state-default.ui-state-active").find("a").addClass("tabwithborderbottom"); 
+                            }
+                        }
+                        if (ui.index == 0 && bisthemeloaded == false) {
+                            bisthemeloaded = true;
+                            changeTheme();
+                            $("#browsePanel").tabs('select', 0);
+                        }
+                    });
+                </script>

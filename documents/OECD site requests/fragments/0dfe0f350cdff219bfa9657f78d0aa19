@@ -1,0 +1,41 @@
+<script type="text/javascript">
+
+        function popup(page) {
+            var left;
+            var top;
+            top = ((screen.height - 420) / 2);
+            left = ((screen.width - 650) / 2);
+            var owindow = window.open(page, "popup", "toolbar=false,scrollbars=false,width=650,height=420,left=" + left + ",top=" + top + "");
+            owindow.focus();
+            if (!$.browser.msie) {
+                e.stopPropagation();
+            }
+            else {
+                window.event.cancelBubble = true;
+            }
+            return false;
+        }
+
+        $(".menubar-icons").menubar({
+            autoExpand: true,
+            menuIcon: true,
+            buttons: true
+        });
+
+        var queryid = '';
+        var datasetcode = '';
+        var mergequery;
+
+        datasetcode = 'MEI_CLI';queryid = 6617; 
+	       
+        function exportreadymadefiles_clientclick()
+        {
+            if (typeof modalreadymadefilestitle != 'undefined') {
+                OpenDialog("./DownloadFiles.aspx?HideTopMenu=yes&DatasetCode=" + datasetcode, modalreadymadefilestitle, 'auto');
+            }
+            else {
+                OpenDialog( "./DownloadFiles.aspx?HideTopMenu=yes&DatasetCode=" + datasetcode, "Related files", 'auto');
+            }
+        }
+
+    </script>

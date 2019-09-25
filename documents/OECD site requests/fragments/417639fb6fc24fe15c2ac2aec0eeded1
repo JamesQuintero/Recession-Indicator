@@ -1,0 +1,12 @@
+<script language="javascript" type="text/javascript">
+var ishotlink = false;
+function ShowHotlinksQuery(HotlinksQueryId) {
+    ishotlink = true;
+    subSessionId = $('input[id*="TBSubSessionId"]').val();
+    CallServer("HotLinksQuery&" + HotlinksQueryId + "&" + subSessionId);
+}
+function opentab0() {
+    $("#browsePanel").tabs('select', 0);
+    return false;
+}
+</script>

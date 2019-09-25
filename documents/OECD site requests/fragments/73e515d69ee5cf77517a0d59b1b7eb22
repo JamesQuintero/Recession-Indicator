@@ -1,0 +1,36 @@
+<script language="javascript" type="text/javascript">
+    function JQueryHoverAndClick()
+	{
+        // JQuery Javascript for hover and click
+
+        $(".JTDDataset").hover(
+              function () {
+                  $(this).addClass("JTDDatasethover");
+              },
+              function () {
+                  $(this).removeClass("JTDDatasethover");
+              }
+        );
+
+        $(".JTDDataset").click(function(){
+	        $(".JTDDatasetclick").removeClass("JTDDatasetclick");
+	        $(this).addClass("JTDDatasetclick");
+            gSelectedDataset = new Dataset($(this).attr("DSCode"), null, $(this).attr("Order"));
+            $(".MDQInputButton1").removeAttr("disabled");
+            $(".MDQInputButton1").removeClass("mqbtndisabled").addClass("mqbtnenabled");
+        });
+
+        // END JQuery Javascript for hover and click
+	}
+	
+    function OpenMQ()
+    {
+        if ($("#MDQToogleExpand").hasClass("NavHeaderExpand"))
+        {
+        $("#MDQContent").slideToggle("fast");
+        $("#MDQToogleExpand").removeClass("NavHeaderExpand").addClass("NavHeaderCollapse");
+        }
+	}
+	
+        $("#MDQActions").css("display","none");
+    </script>

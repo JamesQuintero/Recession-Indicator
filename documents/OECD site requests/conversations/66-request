@@ -1,0 +1,11 @@
+GET https://stats.oecd.org:443/Scripts/Data.js?v2&_=1569390382974 HTTP/1.1
+Host: stats.oecd.org
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0
+Accept: text/javascript, application/javascript, application/ecmascript, application/x-ecmascript, */*; q=0.01
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate, br
+Referer: https://stats.oecd.org/Index.aspx?DataSetCode=MEI_CLI
+X-Requested-With: XMLHttpRequest
+Cookie: ASP.NET_SessionId=qqkafmzgmdc151wj54a40hrh; _ga=GA1.3.422238597.1569389098; _gid=GA1.3.1627855175.1569389098; _ga=GA1.2.422238597.1569389098; _gid=GA1.2.1627855175.1569389098
+Connection: keep-alive
+
